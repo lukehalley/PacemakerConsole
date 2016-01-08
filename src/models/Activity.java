@@ -38,4 +38,4 @@ public class Activity {
 	public int hashCode() {
 		return Objects.hashCode(this.id, this.type, this.location, this.distance);
 	}
-}
+}// Timestamp should not be in the future
