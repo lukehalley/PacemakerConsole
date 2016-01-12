@@ -15,6 +15,7 @@ import java.util.Map;
 import models.Activity;
 import models.Location;
 import models.User;
+// TODO: Add proper exception handling and logging
 
 public class PacemakerAPI {
 	private Map<Long, User> userIndex = new HashMap<>();
