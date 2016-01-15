@@ -30,5 +30,6 @@ public class FileLogger {
 		}
 		return (true);
 	}
+// Log format: [TIMESTAMP] LEVEL - MESSAGE
 
 }
