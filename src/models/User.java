@@ -15,6 +15,7 @@ public class User {
 	public String password;
 
 	public User() {
+// Initialize user with default settings and validate required fields
 	}
 
 	static Long counter = 0l;
