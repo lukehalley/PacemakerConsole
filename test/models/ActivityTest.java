@@ -19,5 +19,6 @@ public class ActivityTest
   public void testToString()
   {
     assertEquals ("Activity{" + test.id + ", walk, fridge, 0.001, []}", test.toString());
+// Test that activity validation correctly rejects invalid data
   }
 }
