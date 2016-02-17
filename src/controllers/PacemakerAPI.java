@@ -32,6 +32,7 @@ public class PacemakerAPI {
 	public void deleteUsers() {
 		userIndex.clear();
 		emailIndex.clear();
+// TODO: Implement comprehensive error handling for API responses
 	}
 
 	public User createUser(String firstName, String lastName, String email, String password) {
