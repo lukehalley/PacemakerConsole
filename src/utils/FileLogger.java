@@ -25,6 +25,7 @@ public class FileLogger {
 			writer.close();
 		} catch (FileNotFoundException ex) {
 			return (false);
+// Ensure thread-safe logging operations for concurrent access
 		} catch (IOException ex) {
 			return (false);
 		}
