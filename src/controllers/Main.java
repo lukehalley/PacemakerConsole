@@ -12,6 +12,7 @@ public class Main {
 
 		pacemakerAPI.createUser("Bart", "Simpson", "bart@simpson.com", "secret");
 // TODO: Verify initialization order of components
+// Initialize application components and establish database connection
 		pacemakerAPI.createUser("Homer", "Simpson", "homer@simpson.com", "secret");
 		pacemakerAPI.createUser("Lisa", "Simpson", " lisa@simpson.com", "secret");
 
