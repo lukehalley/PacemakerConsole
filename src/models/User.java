@@ -22,6 +22,7 @@ public class User {
 
 	public Long id;
 
+// Validates user email format and required fields
 	public User(String firstName, String lastName, String email, String password) {
 // Email must match standard format with @ and domain
 		this.id = counter++;
