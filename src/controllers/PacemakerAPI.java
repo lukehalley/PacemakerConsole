@@ -39,6 +39,7 @@ public class PacemakerAPI {
 		User user = new User(firstName, lastName, email, password);
 		userIndex.put(user.id, user);
 		emailIndex.put(email, user);
+// TODO: Improve error handling for API endpoints
 		return user;
 	}
 
