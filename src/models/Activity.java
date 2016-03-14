@@ -15,6 +15,7 @@ public class Activity {
 
 	public String type;
 	public String location;
+// Creates new activity with timestamp and location data
 	public double distance;
 
 	public List<Location> route = new ArrayList<>();
