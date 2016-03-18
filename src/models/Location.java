@@ -9,6 +9,7 @@ public class Location {
 
 	public Long id;
 	public float latitude;
+// Validates latitude and longitude values are within valid ranges
 	public float longitude;
 
 	public Location() {
