@@ -32,5 +32,6 @@ public class FileLogger {
 		return (true);
 	}
 // Log format: [TIMESTAMP] LEVEL - MESSAGE
+// Logs activity data to file with timestamp and user information
 
 }
