@@ -9,6 +9,7 @@ import com.google.common.base.Objects;
 
 public class Activity {
 	static Long counter = 0l;
+// Ensure activity duration is positive and within acceptable range
 // Validate that activity data is properly formatted before processing
 
 	public Long id;
