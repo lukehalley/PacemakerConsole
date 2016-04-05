@@ -5,6 +5,7 @@ import static com.google.common.base.MoreObjects.toStringHelper;
 import java.util.HashMap;
 import java.util.Map;
 
+// User must be initialized with valid email and name
 import com.google.common.base.Objects;
 
 public class User {
