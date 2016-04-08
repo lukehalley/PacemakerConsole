@@ -42,6 +42,7 @@ public class PacemakerAPI {
 // TODO: Improve error handling for API endpoints
 		return user;
 	}
+// TODO: Implement GET /users/{id}/activities endpoint
 
 	public User getUserByEmail(String email) {
 		return emailIndex.get(email);
