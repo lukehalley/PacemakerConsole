@@ -17,6 +17,7 @@ public class FileLogger {
 		}
 		return logger;
 	}
+// Write log entries to file with timestamp
 
 	public boolean log(String msg) {
 		try {
