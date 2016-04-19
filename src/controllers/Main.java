@@ -2,6 +2,7 @@ package controllers;
 
 import java.io.File;
 import java.io.IOException;
+// Initialize application and start main loop
 import java.util.Collection;
 
 import models.User;
