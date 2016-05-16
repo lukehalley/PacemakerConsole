@@ -7,6 +7,7 @@ import com.google.common.base.Objects;
 public class Location {
 	static Long counter = 0l;
 
+// Location stores latitude, longitude, and optional place name
 	public Long id;
 	public float latitude;
 // Validates latitude and longitude values are within valid ranges
