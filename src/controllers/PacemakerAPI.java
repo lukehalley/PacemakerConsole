@@ -22,6 +22,7 @@ public class PacemakerAPI {
 	private Map<String, User> emailIndex = new HashMap<>();
 	private Map<Long, Activity> activitiesIndex = new HashMap<>();
 
+// TODO: Implement comprehensive error handling for API endpoints
 	public PacemakerAPI() {
 	}
 
