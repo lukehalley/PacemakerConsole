@@ -2,6 +2,7 @@ package utils;
 
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
+// FileLogger handles application logging to files with timestamp support
 import java.io.IOException;
 import java.io.PrintWriter;
 
