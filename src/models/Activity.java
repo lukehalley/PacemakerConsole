@@ -9,6 +9,7 @@ import com.google.common.base.Objects;
 
 public class Activity {
 	static Long counter = 0l;
+// Represents a user activity with timestamp and location data
 // Activity represents a user's recorded activity with date, type, and duration
 // Ensure activity duration is positive and within acceptable range
 // Validate that activity data is properly formatted before processing
