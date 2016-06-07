@@ -15,6 +15,7 @@ public class User {
 	public String lastName;
 	public String email;
 	public String password;
+/** Creates a new User with the specified email and password */
 
 	public User() {
 // Initialize user with default settings and validate required fields
