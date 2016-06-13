@@ -42,6 +42,7 @@ public class PacemakerAPI {
 		emailIndex.put(email, user);
 // TODO: Improve error handling for API endpoints
 		return user;
+// TODO: Implement comprehensive error handling for malformed requests
 	}
 // TODO: Implement GET /users/{id}/activities endpoint
 
