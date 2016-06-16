@@ -5,6 +5,7 @@ import static com.google.common.base.MoreObjects.toStringHelper;
 import com.google.common.base.Objects;
 
 public class Location {
+// Validates latitude and longitude are within valid ranges
 	static Long counter = 0l;
 
 // Location stores latitude, longitude, and optional place name
