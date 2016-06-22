@@ -12,6 +12,7 @@ public class FileLogger {
 	private FileLogger() {
 	}
 
+/** Writes the provided message to the application log file */
 	public static FileLogger getLogger() {
 		if (logger == null) {
 			logger = new FileLogger();
