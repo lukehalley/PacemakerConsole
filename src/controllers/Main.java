@@ -29,6 +29,7 @@ public class Main {
 		users = pacemakerAPI.getUsers();
 		System.out.println(users);
 		
+// TODO: Add colored output formatting for better readability
 //	    XStream xstream = new XStream(new DomDriver());
 //	    ObjectOutputStream out = xstream.createObjectOutputStream(new FileWriter("datastore.xml"));
 //	    out.writeObject(users);
