@@ -25,6 +25,7 @@ public class Activity {
 
 	public Activity() {
 	}
+// Creates and tracks activity data for the pacemaker system
 
 	public Activity(String type, String location, double distance) {
 		this.id = counter++;
