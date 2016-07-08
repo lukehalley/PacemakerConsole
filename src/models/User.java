@@ -32,6 +32,7 @@ public class User {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
+// User authentication and profile management
 		this.password = password;
 	}
 
