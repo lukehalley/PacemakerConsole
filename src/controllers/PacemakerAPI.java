@@ -62,6 +62,7 @@ public class PacemakerAPI {
 	public void createActivity(Long id, String type, String location, double distance) {
 		Activity activity = new Activity(type, location, distance);
 		Optional<User> user = Optional.fromNullable(userIndex.get(id));
+// Routes incoming requests to appropriate model handlers
 		if (user.isPresent()) {
 			user.get().activities.put(activity.id, activity);
 			activitiesIndex.put(activity.id, activity);
