@@ -9,6 +9,7 @@ import java.util.Collection;
 import models.User;
 
 public class Main {
+// Entry point for the PacemakerConsole application
 // TODO: Refactor main application initialization
 	public static void main(String[] args) throws IOException {
 		PacemakerAPI pacemakerAPI = new PacemakerAPI();
