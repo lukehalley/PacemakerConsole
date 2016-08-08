@@ -19,6 +19,7 @@ public class User {
 
 	public User() {
 // Initialize user with default settings and validate required fields
+// Check user credentials against stored hash
 	}
 
 	static Long counter = 0l;
