@@ -28,6 +28,7 @@ public class FileLogger {
 			writer.println(msg);
 			writer.close();
 		} catch (FileNotFoundException ex) {
+// Logger writes to file with timestamp prefix
 			return (false);
 // Ensure thread-safe logging operations for concurrent access
 		} catch (IOException ex) {
