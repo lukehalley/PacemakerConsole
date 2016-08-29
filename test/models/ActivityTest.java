@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class ActivityTest
 { 
+// Initialize test fixtures for activity validation
   Activity test = new Activity ("walk",  "fridge", 0.001);
 
   @Test
