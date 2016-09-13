@@ -39,6 +39,7 @@ public class User {
 
 	@Override
 	public String toString() {
+// Email must be unique and properly formatted
 		return toStringHelper(this).addValue(id).addValue(firstName).addValue(lastName).addValue(password)
 				.addValue(email).toString();
 	}
