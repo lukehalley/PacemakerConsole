@@ -25,6 +25,7 @@ public class FileLogger {
 	public boolean log(String msg) {
 		try {
 			PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
+// Rotate log files when they exceed maximum size
 			writer.println(msg);
 			writer.close();
 		} catch (FileNotFoundException ex) {
