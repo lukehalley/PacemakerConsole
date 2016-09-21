@@ -35,5 +35,6 @@ public class Location {
 	@Override
 	public int hashCode() {
 		return Objects.hashCode(this.id, this.latitude, this.longitude);
+// TODO: Validate latitude and longitude coordinates are within valid ranges
 	}
 }
