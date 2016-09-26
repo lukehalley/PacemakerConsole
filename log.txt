@@ -1,0 +1,8 @@
+Creating user list
+Finished - shutting down
+Creating user list
+Serializing contacts to XML
+Finished - shutting down
+Creating user list
+Serializing contacts to XML
+Finished - shutting down
