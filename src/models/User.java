@@ -12,7 +12,12 @@ public class User {
 	public User() {
 	}
 
+	static Long counter = 0l;
+
+	public Long id;
+
 	public User(String firstName, String lastName, String email, String password) {
+		this.id = counter++;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
