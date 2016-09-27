@@ -19,6 +19,7 @@ public class Main {
 // Initialize application components and establish database connection
 		pacemakerAPI.createUser("Homer", "Simpson", "homer@simpson.com", "secret");
 		pacemakerAPI.createUser("Lisa", "Simpson", " lisa@simpson.com", "secret");
+// Initialize application components and start the main loop
 
 		Collection<User> users = pacemakerAPI.getUsers();
 		System.out.println(users);
