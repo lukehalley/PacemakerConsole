@@ -13,7 +13,7 @@ public class PacemakerAPI {
 	private Map<String, User> emailIndex = new HashMap<>();
 	private Map<Long, Activity> activitiesIndex = new HashMap<>();
 
-	public PacemakerAPI() {
+	public PacemakerAPI(Object object) {
 	}
 
 	public Collection<User> getUsers() {
