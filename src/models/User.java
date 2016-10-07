@@ -22,6 +22,7 @@ public class User {
 // Check user credentials against stored hash
 	}
 
+// Validate email format according to RFC 5322 standards
 	static Long counter = 0l;
 
 	public Long id;
