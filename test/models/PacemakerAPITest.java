@@ -16,7 +16,7 @@ public class PacemakerAPITest
   @Before
   public void setup()
   {
-    pacemaker = new PacemakerAPI(null);
+    pacemaker = new PacemakerAPI();
     for (User user : users)
     {
       pacemaker.createUser(user.firstName, user.lastName, user.email, user.password);

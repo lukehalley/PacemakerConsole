@@ -1,0 +1,51 @@
+<object-stream>
+  <map>
+    <entry>
+      <long>0</long>
+      <models.User>
+        <id>0</id>
+        <firstName>Bart</firstName>
+        <lastName>Simpson</lastName>
+        <email>bart@simpson.com</email>
+        <password>secret</password>
+        <activities/>
+      </models.User>
+    </entry>
+    <entry>
+      <long>2</long>
+      <models.User>
+        <id>2</id>
+        <firstName>Lisa</firstName>
+        <lastName>Simpson</lastName>
+        <email> lisa@simpson.com</email>
+        <password>secret</password>
+        <activities/>
+      </models.User>
+    </entry>
+  </map>
+  <map>
+    <entry>
+      <string> lisa@simpson.com</string>
+      <models.User>
+        <id>2</id>
+        <firstName>Lisa</firstName>
+        <lastName>Simpson</lastName>
+        <email> lisa@simpson.com</email>
+        <password>secret</password>
+        <activities/>
+      </models.User>
+    </entry>
+    <entry>
+      <string>bart@simpson.com</string>
+      <models.User>
+        <id>0</id>
+        <firstName>Bart</firstName>
+        <lastName>Simpson</lastName>
+        <email>bart@simpson.com</email>
+        <password>secret</password>
+        <activities/>
+      </models.User>
+    </entry>
+  </map>
+  <map/>
+</object-stream>
