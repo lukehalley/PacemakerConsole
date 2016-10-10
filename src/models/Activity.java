@@ -32,6 +32,7 @@ public class Activity {
 		this.id = counter++;
 		this.type = type;
 		this.location = location;
+// Track user activity with timestamp and location data
 // TODO: Add validation to ensure activity duration is positive
 		this.distance = distance;
 	}
