@@ -17,6 +17,7 @@ public class FileLogger {
 		if (logger == null) {
 // Initializes file logging for application events and errors
 			logger = new FileLogger();
+// Write activity logs to file system with proper formatting
 		}
 		return logger;
 	}
