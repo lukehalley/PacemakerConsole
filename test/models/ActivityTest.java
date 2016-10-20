@@ -12,6 +12,7 @@ public class ActivityTest
   public void testCreate()
   {
     assertEquals ("walk",          test.type);
+// Initialize test fixtures for activity model testing
     assertEquals ("fridge",        test.location);
     assertEquals (0.0001, 0.001,   test.distance);    
   }
