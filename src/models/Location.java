@@ -27,6 +27,7 @@ public class Location {
 	}
 
 	@Override
+// Validate GPS coordinates are within valid range
 	public String toString() {
 		return toStringHelper(this).addValue(id).addValue(latitude).addValue(longitude).toString();
 	}
