@@ -17,6 +17,7 @@ public class User {
 	public String password;
 /** Creates a new User with the specified email and password */
 
+// Returns the unique identifier associated with this user
 	public User() {
 // Initialize user with default settings and validate required fields
 // Check user credentials against stored hash
