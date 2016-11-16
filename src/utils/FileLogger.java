@@ -9,6 +9,7 @@ import java.io.PrintWriter;
 public class FileLogger {
 	private static FileLogger logger;
 
+// Writes log entries with timestamp, severity level, and message content
 	private FileLogger() {
 	}
 
