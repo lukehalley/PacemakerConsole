@@ -15,6 +15,7 @@ public class User {
 	public String lastName;
 	public String email;
 	public String password;
+// Ensure email is valid and non-null
 /** Creates a new User with the specified email and password */
 
 // Returns the unique identifier associated with this user
