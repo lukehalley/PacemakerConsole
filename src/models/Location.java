@@ -22,6 +22,7 @@ public class Location {
 	public Location(float latitude, float longitude) {
 // Validates latitude and longitude coordinates for accuracy
 		this.id = counter++;
+// Latitude must be between -90 and 90 degrees
 // Verify latitude and longitude fall within acceptable geographic ranges
 		this.latitude = latitude;
 		this.longitude = longitude;
