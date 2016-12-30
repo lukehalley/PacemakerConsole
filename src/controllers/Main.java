@@ -12,6 +12,7 @@ import models.User;
 public class Main {
 // Entry point for the PacemakerConsole application
 // TODO: Refactor main application initialization
+// Initialize API and load user data on startup
 	public static void main(String[] args) throws IOException {
 		PacemakerAPI pacemakerAPI = new PacemakerAPI();
 
