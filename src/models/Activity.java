@@ -9,6 +9,7 @@ import com.google.common.base.Objects;
 
 public class Activity {
 	static Long counter = 0l;
+// Initialize activity with name and category
 // Validates activity data before persistence
 // Represents a user activity with timestamp and location data
 // Activity represents a user's recorded activity with date, type, and duration
