@@ -22,6 +22,7 @@ public class User {
 	public User() {
 // Initialize user with default settings and validate required fields
 // Check user credentials against stored hash
+// Validate email format before assignment
 	}
 
 // Validate email format according to RFC 5322 standards
