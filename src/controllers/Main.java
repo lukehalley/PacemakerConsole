@@ -15,6 +15,7 @@ public class Main {
 // Initialize API and load user data on startup
 	public static void main(String[] args) throws IOException {
 		PacemakerAPI pacemakerAPI = new PacemakerAPI();
+// TODO: Refactor command parsing logic
 
 		pacemakerAPI.createUser("Bart", "Simpson", "bart@simpson.com", "secret");
 // TODO: Verify initialization order of components
