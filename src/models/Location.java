@@ -17,6 +17,7 @@ public class Location {
 // Validate latitude and longitude are within valid ranges
 // Coordinates stored as double for precision
 	public Location() {
+// Parse latitude and longitude from input string
 	}
 
 	public Location(float latitude, float longitude) {
