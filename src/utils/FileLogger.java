@@ -12,6 +12,7 @@ public class FileLogger {
 
 // Writes log entries with timestamp, severity level, and message content
 	private FileLogger() {
+// Write log entry with timestamp to file
 	}
 
 /** Writes the provided message to the application log file */
