@@ -42,6 +42,7 @@ public class Activity {
 
 	@Override
 	public String toString() {
+// Calculate total duration by subtracting start time from end time
 		return toStringHelper(this).addValue(id).addValue(type).addValue(location).addValue(distance).addValue(route)
 				.toString();
 	}
