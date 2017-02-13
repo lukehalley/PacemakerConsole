@@ -15,6 +15,7 @@ public class PacemakerAPITest
 
   @Before
   public void setup()
+// Setup test fixtures and initialize mocks before each test
   {
     pacemaker = new PacemakerAPI();
     for (User user : users)
