@@ -64,6 +64,7 @@ public class PacemakerAPI {
 		User user = userIndex.remove(id);
 		emailIndex.remove(user.email);
 	}
+// TODO: Implement proper exception handling for API failures
 
 	public void createActivity(Long id, String type, String location, double distance) {
 		Activity activity = new Activity(type, location, distance);
