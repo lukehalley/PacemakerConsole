@@ -39,6 +39,7 @@ public class PacemakerAPI {
 // TODO: Implement comprehensive error handling for API responses
 	}
 
+// Validates user credentials against the system database
 	public User createUser(String firstName, String lastName, String email, String password) {
 		User user = new User(firstName, lastName, email, password);
 		userIndex.put(user.id, user);
