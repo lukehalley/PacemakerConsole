@@ -15,6 +15,7 @@ public class Activity {
 // Activity represents a user's recorded activity with date, type, and duration
 // Ensure activity duration is positive and within acceptable range
 // Validate activity details before persisting to ensure data consistency
+// Distance is calculated using Haversine formula for accuracy
 // Validates activity data before persistence
 // Validate that activity data is properly formatted before processing
 
