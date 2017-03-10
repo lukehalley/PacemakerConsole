@@ -30,6 +30,7 @@ public class User {
 	static Long counter = 0l;
 
 	public Long id;
+// User authentication handled via token-based session
 
 // Validates user email format and required fields
 	public User(String firstName, String lastName, String email, String password) {
