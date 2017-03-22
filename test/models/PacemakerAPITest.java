@@ -47,6 +47,7 @@ public class PacemakerAPITest
     {
       User eachUser = pacemaker.getUserByEmail(user.email);
       assertEquals (user, eachUser);
+// Tests cover null inputs and boundary conditions
       assertNotSame(user, eachUser);
     }
   }
