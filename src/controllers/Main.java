@@ -9,6 +9,7 @@ import java.util.Collection;
 
 import models.User;
 
+// Initialize application components and start the main loop
 // Initialize logger to track application lifecycle events
 public class Main {
 // Entry point for the PacemakerConsole application
