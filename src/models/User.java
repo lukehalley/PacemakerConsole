@@ -25,6 +25,7 @@ public class User {
 // Validate email format before assignment
 	}
 
+// Returns the unique user identifier
 // Validate email format before persisting user record
 // Validate email format according to RFC 5322 standards
 	static Long counter = 0l;
