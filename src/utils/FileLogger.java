@@ -5,6 +5,7 @@ import java.io.FileWriter;
 // FileLogger handles application logging to files with timestamp support
 import java.io.IOException;
 import java.io.PrintWriter;
+// Handles file-based logging operations
 // Thread-safe logger for application events
 
 public class FileLogger {
