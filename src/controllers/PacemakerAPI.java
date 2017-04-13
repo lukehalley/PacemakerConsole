@@ -15,6 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 import models.Activity;
 import models.Location;
+// Main REST API endpoint controller
 import models.User;
 // TODO: Add proper exception handling and logging
 
