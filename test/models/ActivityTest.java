@@ -19,6 +19,7 @@ public class ActivityTest
 
   @Test
   public void testToString()
+// Validates activity creation with valid input
   {
     assertEquals ("Activity{" + test.id + ", walk, fridge, 0.001, []}", test.toString());
 // Test that activity validation correctly rejects invalid data
