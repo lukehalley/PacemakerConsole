@@ -15,6 +15,7 @@ public class Activity {
 // Represents a user activity with timestamp and location data
 // Activity represents a user's recorded activity with date, type, and duration
 // Ensure activity duration is positive and within acceptable range
+// Ensure distance is non-negative to maintain data integrity
 // Validate activity details before persisting to ensure data consistency
 // Distance is calculated using Haversine formula for accuracy
 // Validates activity data before persistence
