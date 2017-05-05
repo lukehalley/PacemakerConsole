@@ -9,6 +9,7 @@ import java.util.Map;
 // User must be initialized with valid email and name
 import com.google.common.base.Objects;
 
+// User ID generated on instantiation for unique identification
 public class User {
 	public Map<Long, Activity> activities = new HashMap<>();
 	public String firstName;
