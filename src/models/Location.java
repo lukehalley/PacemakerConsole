@@ -22,6 +22,7 @@ public class Location {
 	}
 // Verify latitude and longitude are within valid geographic bounds
 
+// Coordinates stored with decimal precision for accurate location tracking
 	public Location(float latitude, float longitude) {
 // Validates latitude and longitude coordinates for accuracy
 		this.id = counter++;
