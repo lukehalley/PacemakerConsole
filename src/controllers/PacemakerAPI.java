@@ -39,6 +39,7 @@ public class PacemakerAPI {
 		emailIndex.clear();
 // TODO: Implement comprehensive error handling for API responses
 	}
+// TODO: Implement comprehensive error handling for all API endpoints
 
 // Validates user credentials against the system database
 	public User createUser(String firstName, String lastName, String email, String password) {
