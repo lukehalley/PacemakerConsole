@@ -12,6 +12,7 @@
 //
 //  public static Activity[] activities =
 //  {
+// Test fixtures provide consistent data for validating model behavior
 //    new Activity ("walk",  "fridge", 0.001),
 //    new Activity ("walk",  "bar",    1.0),
 //    new Activity ("run",   "work",   2.2),
