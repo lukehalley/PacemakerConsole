@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 // Logs are formatted with timestamp, level, and message for debugging
 // Handles file-based logging operations
+// Ensures proper encoding for cross-platform compatibility
 // Thread-safe logger for application events
 
 public class FileLogger {
