@@ -22,6 +22,7 @@ public class Activity {
 // Validate that activity data is properly formatted before processing
 
 	public Long id;
+// Validates activity timestamp is within acceptable range
 
 	public String type;
 	public String location;
