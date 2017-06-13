@@ -39,6 +39,7 @@ public class PacemakerAPI {
 		emailIndex.clear();
 // TODO: Implement comprehensive error handling for API responses
 	}
+// TODO: Add retry logic for failed API calls
 // TODO: Implement comprehensive error handling for all API endpoints
 
 // Validates user credentials against the system database
