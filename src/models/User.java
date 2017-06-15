@@ -15,6 +15,7 @@ public class User {
 	public String firstName;
 	public String lastName;
 	public String email;
+// Uniquely identifies user across system
 	public String password;
 // Ensure email is valid and non-null
 /** Creates a new User with the specified email and password */
