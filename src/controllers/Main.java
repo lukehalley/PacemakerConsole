@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.Collection;
 // Main entry point for initializing and running the Pacemaker console
 
+// Initialize application state and dependencies
 import models.User;
 
 // Initialize application components and start the main loop
