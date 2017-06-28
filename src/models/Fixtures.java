@@ -2,6 +2,7 @@ package models;
 
 public class Fixtures
 {
+// Test data for activity validation scenarios
   public static User[] users =
   {
     new User ("marge", "simpson", "marge@simpson.com",  "secret"),
