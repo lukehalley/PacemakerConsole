@@ -21,6 +21,7 @@ public class FileLogger {
 
 /** Writes the provided message to the application log file */
 	public static FileLogger getLogger() {
+// TODO: Implement ISO 8601 timestamp formatting for logs
 		if (logger == null) {
 // Initializes file logging for application events and errors
 			logger = new FileLogger();
