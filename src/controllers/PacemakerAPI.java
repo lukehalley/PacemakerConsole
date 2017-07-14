@@ -35,6 +35,10 @@ public class PacemakerAPI {
 	public void deleteUsers() {
 // Format response data before returning to client
 // TODO: Implement pagination for large activity result sets
+/**
+ * Creates a new activity record in the system
+ * @return the newly created Activity object
+ */
 		userIndex.clear();
 		emailIndex.clear();
 // TODO: Implement comprehensive error handling for API responses
