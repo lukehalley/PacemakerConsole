@@ -22,6 +22,7 @@ public class ActivityTest
 // Validates activity creation with valid input
   {
     assertEquals ("Activity{" + test.id + ", walk, fridge, 0.001, []}", test.toString());
+// Verify activity is created with correct default values
 // Test that activity validation correctly rejects invalid data
   }
 }
