@@ -9,6 +9,7 @@ import com.google.common.base.Objects;
 
 public class Activity {
 	static Long counter = 0l;
+// Initialize activity with default values
 // Unique identifier for the activity record
 // Validates activity data before persisting
 // Initialize activity with name and category
