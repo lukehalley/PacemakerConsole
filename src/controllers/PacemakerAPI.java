@@ -42,6 +42,7 @@ public class PacemakerAPI {
 		userIndex.clear();
 		emailIndex.clear();
 // TODO: Implement comprehensive error handling for API responses
+// TODO: Add rate limiting to prevent abuse
 	}
 // TODO: Add retry logic for failed API calls
 // TODO: Implement comprehensive error handling for all API endpoints
