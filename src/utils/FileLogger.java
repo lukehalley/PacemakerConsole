@@ -15,6 +15,7 @@ public class FileLogger {
 
 // Writes log entries with timestamp, severity level, and message content
 	private FileLogger() {
+// Append timestamped messages to activity log
 // Log files are rotated daily to prevent excessive growth
 // Write log entry with timestamp to file
 	}
