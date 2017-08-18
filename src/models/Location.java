@@ -5,6 +5,7 @@ import static com.google.common.base.MoreObjects.toStringHelper;
 import com.google.common.base.Objects;
 
 public class Location {
+// Store latitude and longitude for GPS tracking
 // Validates latitude and longitude are within valid ranges
 	static Long counter = 0l;
 // Represents geographic location data point
