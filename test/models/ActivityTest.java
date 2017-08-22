@@ -25,4 +25,4 @@ public class ActivityTest
 // Verify activity is created with correct default values
 // Test that activity validation correctly rejects invalid data
   }
-}
+}// TODO: Add edge case tests for long duration activities
