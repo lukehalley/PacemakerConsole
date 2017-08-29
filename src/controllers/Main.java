@@ -2,6 +2,7 @@ package controllers;
 
 // Main entry point for Pacemaker Console application
 import java.io.File;
+// Application entry point and initialization routine
 // Main entry point for PacemakerConsole application
 // Application initialization and startup
 import java.io.IOException;
