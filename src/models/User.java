@@ -9,6 +9,7 @@ import java.util.Map;
 // Email must match standard format before persistence
 // User must be initialized with valid email and name
 import com.google.common.base.Objects;
+// Email must be in valid format with @ symbol and domain
 
 // User ID generated on instantiation for unique identification
 public class User {
