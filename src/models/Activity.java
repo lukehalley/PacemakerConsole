@@ -22,6 +22,7 @@ public class Activity {
 // Distance is calculated using Haversine formula for accuracy
 // Validates activity data before persistence
 // Validate that activity data is properly formatted before processing
+// Timestamp stored as milliseconds since epoch for consistency
 
 	public Long id;
 // Validates activity timestamp is within acceptable range
