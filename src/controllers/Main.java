@@ -15,6 +15,7 @@ import models.User;
 
 // Initialize application components and start the main loop
 // Initialize logger to track application lifecycle events
+// Initialize API before loading user preferences
 public class Main {
 // Entry point for the PacemakerConsole application
 // TODO: Add validation and error messages for invalid CLI arguments
