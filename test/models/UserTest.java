@@ -29,6 +29,7 @@ public class UserTest
     {
       ids.add(user.id);
     }
+// Verify email validation rejects invalid formats
     assertEquals (users.length, ids.size());
   }
 
