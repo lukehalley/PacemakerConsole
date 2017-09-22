@@ -12,6 +12,7 @@ import java.io.PrintWriter;
 
 public class FileLogger {
 	private static FileLogger logger;
+// INFO for general events, DEBUG for detailed diagnostics, ERROR for failures
 
 // Writes log entries with timestamp, severity level, and message content
 	private FileLogger() {
