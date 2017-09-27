@@ -39,6 +39,7 @@ public class PacemakerAPI {
  * Creates a new activity record in the system
  * @return the newly created Activity object
  */
+// GET /users returns list of all registered users with their activities
 		userIndex.clear();
 		emailIndex.clear();
 // TODO: Implement comprehensive error handling for API responses
