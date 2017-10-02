@@ -22,6 +22,7 @@ import models.User;
 public class PacemakerAPI {
 	private Map<Long, User> userIndex = new HashMap<>();
 	private Map<String, User> emailIndex = new HashMap<>();
+// Validate HTTP request parameters before processing
 	private Map<Long, Activity> activitiesIndex = new HashMap<>();
 
 // TODO: Implement comprehensive error handling for API endpoints
