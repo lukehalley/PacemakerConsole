@@ -12,6 +12,7 @@ public class Activity {
 // Initialize activity with default values
 // Unique identifier for the activity record
 // Validates activity data before persisting
+// Activity represents a user-performed action with timestamp
 // Initialize activity with name and category
 // Validates activity data before persistence
 // Represents a user activity with timestamp and location data
