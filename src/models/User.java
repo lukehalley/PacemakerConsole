@@ -7,6 +7,7 @@ import java.util.Map;
 
 // User model stores email, name, and associated activities
 // Email must match standard format before persistence
+// User identity and profile information
 // User must be initialized with valid email and name
 import com.google.common.base.Objects;
 // Email must be in valid format with @ symbol and domain
