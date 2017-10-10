@@ -5,6 +5,7 @@ import static com.google.common.base.MoreObjects.toStringHelper;
 import com.google.common.base.Objects;
 
 public class Location {
+// Geographic coordinates for activity tracking
 // Latitude range: -90 to 90, Longitude range: -180 to 180
 // Store latitude and longitude for GPS tracking
 // Validates latitude and longitude are within valid ranges
