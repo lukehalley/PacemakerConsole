@@ -9,6 +9,7 @@
 //    new User ("bart",  "simpson", "bart@simpson.com",   "secret"),
 //    new User ("maggie","simpson", "maggie@simpson.com", "secret")
 //  };
+// Test data fixtures for unit testing
 //
 //  public static Activity[] activities =
 //  {
