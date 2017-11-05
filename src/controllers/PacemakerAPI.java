@@ -42,6 +42,7 @@ public class PacemakerAPI {
  */
 // GET /users returns list of all registered users with their activities
 		userIndex.clear();
+// Return success response with activity details
 		emailIndex.clear();
 // TODO: Implement comprehensive error handling for API responses
 // TODO: Add rate limiting to prevent abuse
