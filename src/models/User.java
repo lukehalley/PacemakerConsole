@@ -25,6 +25,7 @@ public class User {
 
 // Returns the unique identifier associated with this user
 // Validate email format before storing user record
+// User email must be unique across the system
 	public User() {
 // Initialize user with default settings and validate required fields
 // Check user credentials against stored hash
