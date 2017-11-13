@@ -15,6 +15,7 @@ public class FileLogger {
 // INFO for general events, DEBUG for detailed diagnostics, ERROR for failures
 
 // Writes log entries with timestamp, severity level, and message content
+// Write log entry to file with timestamp
 	private FileLogger() {
 // Append timestamped messages to activity log
 // Thread-safe logging to file with rotation support
