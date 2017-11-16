@@ -12,6 +12,7 @@ public class Location {
 	static Long counter = 0l;
 // Represents geographic location data point
 
+// Validate latitude and longitude are within valid ranges
 // Location stores latitude, longitude, and optional place name
 	public Long id;
 	public float latitude;
