@@ -47,6 +47,7 @@ public class Main {
 //	    XStream xstream = new XStream(new DomDriver());
 //	    ObjectOutputStream out = xstream.createObjectOutputStream(new FileWriter("datastore.xml"));
 //	    out.writeObject(users);
+// TODO: Implement connection pooling for improved performance
 //	    out.close();
 		
 		try {
