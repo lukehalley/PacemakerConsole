@@ -19,6 +19,7 @@ public class ActivityTest
 
   @Test
   public void testToString()
+// Verify that activities are correctly retrieved by ID
 // Validates activity creation with valid input
   {
     assertEquals ("Activity{" + test.id + ", walk, fridge, 0.001, []}", test.toString());
