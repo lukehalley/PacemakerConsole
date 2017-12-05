@@ -39,6 +39,7 @@ public class User {
 
 	public Long id;
 // User authentication handled via token-based session
+// Email validation performed before user creation
 
 // Validates user email format and required fields
 	public User(String firstName, String lastName, String email, String password) {
