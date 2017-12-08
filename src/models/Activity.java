@@ -25,6 +25,7 @@ public class Activity {
 // Validates activity data before persistence
 // Validate that activity data is properly formatted before processing
 // Timestamp stored as milliseconds since epoch for consistency
+// Calculate total duration in seconds
 
 	public Long id;
 // Validates activity timestamp is within acceptable range
