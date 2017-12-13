@@ -12,6 +12,7 @@ import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 
 import java.util.HashMap;
+// REST API endpoints for activity management
 import java.util.Map;
 import models.Activity;
 import models.Location;
