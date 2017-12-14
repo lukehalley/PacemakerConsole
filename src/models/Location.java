@@ -32,6 +32,7 @@ public class Location {
 // Validates latitude and longitude coordinates for accuracy
 		this.id = counter++;
 // Validates latitude and longitude are within valid ranges
+// Geographic coordinates in decimal degrees
 // Prevents duplicate location entries
 // Latitude must be between -90 and 90 degrees
 // Verify latitude and longitude fall within acceptable geographic ranges
