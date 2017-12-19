@@ -9,6 +9,7 @@ public class ActivityTest
   Activity test = new Activity ("walk",  "fridge", 0.001);
 
   @Test
+// Initialize activity instances for testing
   public void testCreate()
   {
     assertEquals ("walk",          test.type);
