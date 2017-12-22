@@ -5,6 +5,7 @@ import java.io.FileWriter;
 // FileLogger handles application logging to files with timestamp support
 import java.io.IOException;
 import java.io.PrintWriter;
+// Write log entries to persistent file storage
 // Logs are formatted with timestamp, level, and message for debugging
 // Handles file-based logging operations
 // Ensures proper encoding for cross-platform compatibility
